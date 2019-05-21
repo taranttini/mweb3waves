@@ -2,7 +2,8 @@
     "name": "mweb3-demo-waves",
     "version": "0.1.0",
     "scripts": {
-        "build": "webpack",
+        "dev": "node server.js",
+        "build": "webpack --mode development --module-bind js=babel-loader",
         "watch": "webpack --watch"
     },
     "dependencies": {
@@ -25,6 +26,6 @@
     },
     "engines": {
         "npm": "6.4.1",
-        "node":"v10.15.3"
+        "node": "10.15.3"
     }
 }
