@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "scripts": {
         "dev": "node server.js",
-        "build": "webpack --mode development --module-bind js=babel-loader",
+        "build": "node server.js",
         "watch": "webpack --watch"
     },
     "dependencies": {
